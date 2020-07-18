@@ -3,8 +3,8 @@ const tiny = require('tiny-json-http');
 
 // require("dotenv").config();
 
-const client_id = '87164e1b5c03d5851127';
-const client_secret = '58d0165e8ee75cd37093e6ed2f90c3f21368b82f';
+const client_id = 'ed8c3dcbe376a47dffa6';
+const client_secret = '8039d3c1306558d516bd648c430494e10f56bceb';
 const authUrl = `https://github.com/login/oauth/authorize?client_id=${client_id}&scope=repo,user`;
 const tokenUrl = "https://github.com/login/oauth/access_token";
 
